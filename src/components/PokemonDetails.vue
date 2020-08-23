@@ -1,7 +1,7 @@
 <template>
 <div >
     <h1 class="py-4">Pokemon Details</h1>
-    <div class="container d-flex flex-row justify-content-center">
+    <div class="d-flex flex-row justify-content-center">
         <div class="card bg-light  p-3 d-flex flex-column justify-content-center" style="width: 350px">
             <h2 style="text-transform: uppercase">{{name}}</h2>
             <div>
@@ -62,6 +62,3 @@ export default {
 }
 </script>
 
-<style scoped>
-
-</style>

@@ -1,8 +1,7 @@
 <template>
 <div>
-
-  <div class="pokemonList" style="padding:10px; margin-bottom: 20px">
-    <div class="card bg-light p-2 d-flex flex-column justify-content-center" style="width:14rem">
+  <div class="d-flex m-3" >
+    <div class="card bg-light p-2 d-flex flex-column justify-content-center" style="width:16rem">
         <div><PokemonImg :urlImg="this.img" style="height: 120px; width: 120px"/></div>
         <p style="text-transform: capitalize"><strong>{{name}}</strong></p>
         <p>#{{this.id}}</p>

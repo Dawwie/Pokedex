@@ -1,7 +1,6 @@
 <template>
 <div>
   <h1 class="mt-3">Pokemon List</h1>
-  <!-- <input type="text" v-model="search" placeholder="Search pokemon..."/> -->
   <div style="display: flex; flex-direction: row; flex-wrap: nowrap; align-items: start;">
     <div class="card-body d-flex flex-row flex-wrap" style="width: 18rem;">
       <div v-for="item in urls" >
@@ -31,7 +30,6 @@ export default {
       return {
           names: null,
           urls: null,
-          search: '',
           nameToFavourite: ''
       };
   },
@@ -51,28 +49,3 @@ export default {
   }
 }
 </script>
-
-<style>
-.pokemonBox {
-    height: 20em;
-    width: 11em;
-    background: #E8E8E8;
-    border-radius: 25px;
-    padding: 25px;
-    margin: 30px
-  }
-.pokemonList {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding:10px;
-    margin-bottom: 20px;
-    width: 18rem;
-  }
-.container {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-}
-</style>

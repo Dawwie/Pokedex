@@ -1,8 +1,5 @@
 <template>
-
     <img :src="this.urlImg"/>
-
-
 </template>
 
 <script>
